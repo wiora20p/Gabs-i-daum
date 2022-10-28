@@ -1,0 +1,10 @@
+@import 'dane';
+body{
+    margin: 0px;
+    background-color: $kolor_morski;
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(50,30px);
+
+
+}

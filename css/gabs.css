@@ -1,0 +1,7 @@
+body {
+  margin: 0px;
+  background-color: #6CE0DA;
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(50, 30px);
+}/*# sourceMappingURL=gabs.css.map */
