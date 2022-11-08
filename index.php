@@ -1,10 +1,15 @@
+<?php
+ob_start();
+session_start();
+//include 'czyZalogowany.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/gabs.css">
+    <link rel="stylesheet" href="css/gabsa.css">
     <title>Gabs-i daum</title>
 </head>
 <body>
@@ -26,7 +31,7 @@
                 echo '<a href="wyloguj.php">wyloguj się</a>';
             }
         ?>
-        <a href="" ><p>Koszyk</p></a>
+        <a href="" >Koszyk</a>
 
     </header>
     <nav>
@@ -40,21 +45,23 @@
         <li id="nav8">perfumy</li>
     </nav>
     <main>
-        <section>
+        <section class="slider">
             slider
         </section>
 
-        <aside>
-            <img src="" alt="">
-            <button>Przejdź dalej</button>
-        </aside>
+        <section class="drugi dwa">
+            <aside>
+                <img src="" alt="">
+                <button>Przejdź dalej</button>
+            </aside>
 
-        <aside>
-            <img src="" alt="">
-            <button>Odkryj</button>
-        </aside>
-
-        <section>
+            <aside>
+                <img src="" alt="">
+                <button>Odkryj</button>
+            </aside>
+        </section>
+        
+        <section class="hitySezonu">
             <h3>Hity sezonu</h3>
             <!-- tutaj z JS robimy slider, ale inny (można coś wypróbować z automatycznym przewijaniem co jakiś czas) -->
         </section>
@@ -81,9 +88,15 @@
             <img src="" alt="">
         </section>
 
-
+        <aside>
+            reklama
+        </aside>
     </main>
-    <footer></footer>
+    <footer>
+        <li>Designer: Marta Wiora</li>
+        <li>Właściciel: XXX XXXXX</li>
+        <li>telefon: 255 836 84X</li>
+    </footer>
 
 
 
